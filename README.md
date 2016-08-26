@@ -37,7 +37,7 @@ you are going to connect to your apps.
 ### deployments
 
 There are different ways to deploy custom apps on Zulip, and the
-deployments directory will include different deployment strategies
+deployments directory will implement different deployment strategies.
 
 Each subdirectory beneath deployments will have a startup.py script
 that will launch processes that implement the bots.  This is still a
